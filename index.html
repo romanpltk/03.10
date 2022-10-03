@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        body{
+            margin: 0;
+            background: url(background.jpg) ;
+            background-repeat: no-repeat;
+            background-size: 100%;
+            
+        }
+        header{
+            width: 100vw;
+            height:5vh;
+            display: flex;
+            text-align: center;
+            justify-content: space-around;
+            align-items: center;
+            
+            background-color: rgba(25, 25, 190, .3);
+           
+        }
+        
+        .main_div{
+            width: 100vw;
+            height: 60vh;
+            display: flex;
+            flex-direction: row;
+    align-content: stretch;
+    justify-content: space-around;
+    align-items: center;
+        }
+        .lorem{
+           
+            width: 12vw;
+            height: 20vh;
+            background-color:rgba(0, 0, 0, 0.6);
+           
+            display: flex;
+            align-content: space-around;
+    justify-content: space-evenly;
+    flex-wrap: nowrap;
+    align-items: center;
+    flex-direction: column;
+
+        }
+        .lorem div{
+            text-align: center;
+            color:white;
+            width: 8vw;
+            height: 2vh;
+            background-color:rgb(10, 10, 255);
+            
+            border-radius: 30px;
+        }
+        .big_lorem{
+            display: flex;
+            flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+            width: 70vw;
+            height: 40vh;
+            
+            padding:5px;
+        }
+        .big_lorem div{
+            width: 20vw;
+            height: 35vh;
+            background-color:rgba(0, 0, 0, 0.6);
+            color:white;
+            border:3px solid blue;
+            
+            padding: 10px;
+        }
+        .img{
+            width: 12vw;
+            height: 12vh;
+            float: left;
+            margin-right: 5px;
+        }
+        h1{
+            text-align: center;
+            color:white;
+            font-size: 30px;
+        }
+        p{
+            
+        }
+        footer{
+      
+            width: 100vw;
+            height:5vh;
+            display: flex;
+            text-align: center;
+            justify-content: space-around;
+            align-items: center;
+            
+            background-color: rgba(25, 25, 190, .3);
+        }
+        .down_lorem{
+            display: flex;
+            
+            width: 100vw;
+            height: 30vh;
+            flex-direction: row;
+    align-content: flex-start;
+    justify-content: space-around;
+    align-items: center;
+        }
+        .black_lorem{
+            background-color:rgba(0, 0, 0, 0.6);
+            width: 70vw;
+            height: 25vh;
+            display: flex;
+            flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+        }
+        .black_lorem div{
+            width: 20vw;
+            height: 20vh;
+            color:white;
+            background-color:rgba(61, 61, 226, 0.6);
+        }
+    </style>
+</head>
+<body>
+    <header>
+    <h1>Header</h1>
+    </header>
+    <main>
+        <div class="main_div"><div class="lorem"><div>
+            
+            lorem</div>
+        <div>lorem</div>
+        <div>lorem</div>
+        <div>lorem</div>
+        <div>lorem</div>
+        <div>lorem</div></div>
+        <div class="big_lorem"><div>
+            <h1>Lorem</h1>
+            <img src="img1.jpg" alt="#" class="img">
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reprehenderit deleniti libero debitis ipsum neque sint harum quaerat impedit eum inventore voluptatum animi, praesentium culpa blanditiis fuga officiis possimus. Eligendi doloremque sequi debitis, sint atque accusamus laborum voluptas minus ad facere?</p>
+        </div>
+        <div>
+            <h1>Lorem</h1>
+            <img src="img2.jpg" alt="#" class="img">
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reprehenderit deleniti libero debitis ipsum neque sint harum quaerat impedit eum inventore voluptatum animi, praesentium culpa blanditiis fuga officiis possimus. Eligendi doloremque sequi debitis, sint atque accusamus laborum voluptas minus ad facere?</p>
+        </div>
+        <div>
+            <h1>Lorem</h1>
+            <img src="img3.jpg" alt="#" class="img">
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reprehenderit deleniti libero debitis ipsum neque sint harum quaerat impedit eum inventore voluptatum animi, praesentium culpa blanditiis fuga officiis possimus. Eligendi doloremque sequi debitis, sint atque accusamus laborum voluptas minus ad facere?</p>
+        </div>
+        </div>
+    </div>
+    <div class="down_lorem">
+        <div class="black_lorem">
+            <div>
+                <h1>Lorem</h1>
+                
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reprehenderit deleniti libero debitis ipsum neque sint harum quaerat impedit eum inventore voluptatum animi, praesentium culpa blanditiis fuga officiis possimus. Eligendi doloremque sequi debitis, sint atque accusamus laborum voluptas minus ad facere?</p>
+            </div>
+            <div>
+                <h1>Lorem</h1>
+                
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reprehenderit deleniti libero debitis ipsum neque sint harum quaerat impedit eum inventore voluptatum animi, praesentium culpa blanditiis fuga officiis possimus. Eligendi doloremque sequi debitis, sint atque accusamus laborum voluptas minus ad facere?</p>
+            </div>
+            <div>
+                <h1>Lorem</h1>
+                
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reprehenderit deleniti libero debitis ipsum neque sint harum quaerat impedit eum inventore voluptatum animi, praesentium culpa blanditiis fuga officiis possimus. Eligendi doloremque sequi debitis, sint atque accusamus laborum voluptas minus ad facere?</p>
+            </div>
+        </div>
+    </div>
+    </main>
+    <footer><h1>Footer</h1></footer>
+</body>
+</html>
